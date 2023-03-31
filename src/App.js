@@ -7,7 +7,6 @@ import {
   BrowserRouter as Router,
   Routes,
   Route,
-  Link
 } from "react-router-dom";
 
 
@@ -27,7 +26,6 @@ export default class App extends Component {
             <Route exact path="/technology" element={<News key="technology" pageSize={6} country={'in'} category={"technology"} />}></Route>
           </Routes>
         </Router>
-        
       </div>
     )
   }
